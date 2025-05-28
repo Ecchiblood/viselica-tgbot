@@ -2,7 +2,7 @@ import telebot
 from telebot import TeleBot
 from newgame import MyGame
 
-bot = telebot.TeleBot("7352457969:AAH16CMcufh5Vns2UlpBALpEDaRxYPTVaFI", parse_mode=None)
+bot = telebot.TeleBot("TOKEN", parse_mode=None)
 mg = MyGame()
 
 @bot.message_handler(commands=['start', 'help'])
